@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexusserver.com:8081/repository/Test1_Release/</url>
+            <url>http://jenkinsslave.com:8081/repository/release_prj/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexusserver.com:8081/repository/Test1_Snap/</url>
+            <url>http://jenkinsslave.com:8081/repository/snapshot_prj/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
